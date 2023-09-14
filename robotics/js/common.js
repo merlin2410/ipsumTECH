@@ -42,10 +42,10 @@ body.innerHTML += `  <nav class="nav-bar">
         <a href="./roboticsVsAutomation.html">Automation vs Robotics</a>
     </div>
     <div class="sub-section history" id="history">
-        <a href="">Robot vs Autonomous System</a>
+        <a href="./hardVsSoftAutomation.html">Hard vs Soft Automation</a>
     </div>
     <div class="sub-section history" id="history">
-        <a href="">Interdisciplinary Nature of Robotics</a>
+        <a href="./interdisciplinary.html">Interdisciplinary Nature of Robotics</a>
     </div>
 </div>
 
