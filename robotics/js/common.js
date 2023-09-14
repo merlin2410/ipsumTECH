@@ -1,6 +1,12 @@
 const body = document.getElementsByTagName('body')[0];
 body.innerHTML += `  <nav class="nav-bar">
-        
+
+<div class="topics-icon" id="topics-icon">
+        <span class="material-symbols-outlined">
+            menu
+            </span>
+</div>
+
 <div class="home-menu">
     <a href="../index.html">Home</a>
 </div>
@@ -69,3 +75,24 @@ console.log(this)
 //     }
 // })
 
+const head = document.getElementsByTagName("head")[0];
+head.innerHTML += `<link
+rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+/>`
+
+
+const sideBar = document.getElementById("side-bar");
+topicsIcon = document.getElementById("topics-icon");
+topicsIcon.addEventListener('click',()=>{
+    if(screen.width<=820){
+        if(sideBar.style.display==='none'){
+            sideBar.style.display = 'flex';
+        }
+        else{
+            sideBar.style.display = 'none';
+        }
+    
+    }
+    
+})

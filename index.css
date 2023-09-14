@@ -40,6 +40,9 @@ text-decoration: none;
 
 
 
+
+
+
 .course-list li{
     width: 90%;
     height: 30px;
@@ -61,3 +64,10 @@ text-decoration: none;
     padding: 10px;
     margin: 10px;
 }
+
+.main-container img{
+    width: 100%;
+}
+
+
+
