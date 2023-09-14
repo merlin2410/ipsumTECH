@@ -88,6 +88,7 @@ a{
     width: 15%;
     position: fixed;
     top: 70px;
+    background-color: white;
     
     
  }
@@ -162,7 +163,9 @@ a{
         width: 200px;
     }
 
-    
+    .main-container{
+        left: 15%;
+    }
 
     
 }
