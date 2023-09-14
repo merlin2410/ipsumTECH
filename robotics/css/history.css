@@ -1,0 +1,54 @@
+@import url('./common.css');
+
+
+.content ol{
+    padding-left: 5%;
+}
+.content img{
+    width: 15%;
+    
+}
+.capek-image{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.ancient-images img{
+    width: 25%;
+}
+
+.mechanical-turk img{
+    width: 30%;
+    
+}
+
+.mechanical-turk{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+
+.jacquard-loom img{
+    width: 30%;
+}
+
+
+
+.asimov{
+    display: flex;
+    gap: 5%;
+}
+
+.devol-engel img, .unimate img{
+    width: 40%;
+}
+
+.shakey-lunokhold img{
+    width: 40%;
+}
+
+.asimo img{
+    width: 40%;
+}
+
