@@ -5,7 +5,7 @@ body.innerHTML += `  <nav class="nav-bar">
     <a href="../index.html">Home</a>
 </div>
 <div class="courses" id="courses">
-    <a href="">Courses</a>
+    <p onClick="clicked()">Courses</p>
     <ul class="course-list" id="course-list">
         <li><a href="./home.html">Kinematics, Dynamcis and Control of Robots</a></li>
         <li><a href="">Circuits and Measurement Lab</a></li>
@@ -52,10 +52,20 @@ body.innerHTML += `  <nav class="nav-bar">
 const courses = document.getElementById('courses');
 const courseList = document.getElementById('course-list');
 
-courses.addEventListener('mouseenter',()=>{
-    courseList.style.display = 'flex';
-})
+function clicked(){
+    if(courseList.style.display==='none'){
+        courseList.style.display = 'flex';
+    }
+    else{
+        courseList.style.display = 'none';
+    }
+}
 
-courseList.addEventListener('mouseleave',()=>{
-    courseList.style.display='none';
-})
+console.log(this)
+
+// this.addEventListener('click',()=>{
+//     if(courseList.style.display==='flex'){
+//         courseList.style.display = 'none';
+//     }
+// })
+

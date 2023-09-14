@@ -25,6 +25,15 @@
 a{
     text-decoration: none;
 }
+
+.courses p{
+    color: white;
+}
+
+.courses:hover{
+    cursor: pointer;
+}
+
 .course-list{
     list-style-type: none;
     display: none;
