@@ -5,21 +5,22 @@
     padding-left: 5%;
 }
 .content img{
-    width: 15%;
+    width: 35%;
     
 }
 .capek-image{
-    display: flex;
+    
     justify-content: center;
-    gap: 10%;
+    gap: 5%;
+    
 }
 
 .ancient-images img{
-    width: 25%;
+    width: 45%;
 }
 
 .mechanical-turk img{
-    width: 30%;
+    width: 40%;
     
 }
 
@@ -27,28 +28,46 @@
     display: flex;
     align-items: center;
     gap: 2%;
+    flex-wrap: wrap;
 }
 
 .jacquard-loom img{
-    width: 30%;
+    width: 50%;
 }
 
 
 
 .asimov{
     display: flex;
+    flex-wrap: wrap;
     gap: 5%;
 }
 
 .devol-engel img, .unimate img{
-    width: 40%;
+    width: 50%;
 }
 
 .shakey-lunokhold img{
-    width: 40%;
+    width: 50%;
 }
 
 .asimo img{
-    width: 40%;
+    width: 45%;
+}
+
+@media only screen and (max-width:480px) {
+    .devol-engel img, .unimate img{
+        width: 80%;
+    }
+    
+    .shakey-lunokhold img{
+        width: 80%;
+    }
+    
+    .asimo img{
+        width: 65%;
+    }
+   
+    
 }
 

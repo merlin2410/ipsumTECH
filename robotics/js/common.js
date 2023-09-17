@@ -32,6 +32,9 @@ body.innerHTML += `  <nav class="nav-bar">
     <div class="sub-section history" id="history">
         <a href="./history.html">History of Robotics</a>
     </div>
+    <div class="sub-section robot-types" id="robot-types">
+        <a href="./robotTypes.html">Types of Robots</a>
+    </div>
 </div>
 
 <div class="line"></div>

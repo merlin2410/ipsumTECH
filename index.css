@@ -52,6 +52,10 @@ text-decoration: none;
     background-color: #797070;
 }
 
+.courses:hover{
+    cursor: pointer;
+}
+
 .main-container{
     display: flex;
     flex-direction: column;

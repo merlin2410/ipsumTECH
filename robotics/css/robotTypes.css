@@ -1,0 +1,22 @@
+@import url('./common.css');
+
+
+.content ol{
+    padding-left: 5%;
+}
+.content img{
+    width: 300px;
+}
+
+.mobile-robots-img img{
+    width: 100%;
+}
+
+.aerial-robot-img img{
+    width: 100%;
+}
+
+.aerial-robot-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
