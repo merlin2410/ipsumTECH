@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Degrees of Freedom</title>
+    <link rel="icon" href="../logoSquare.png" />
+    <link rel="stylesheet" href="./css/hardVsSoftAutomation.css" />
+  </head>
+  <body>
+    <main class="main-container" id="main-container">
+      <div class="next-prev">
+        <a class="previous" href="./interdisciplinary.html">Previous</a>
+        <a class="next" href="./anatomy.html">Next</a>
+      </div>
+      <h1 class="title">Degrees of Freedom</h1>
+      <div class="content">
+        <p>
+          Degrees of freedom represent the number of independent motions or
+          parameters that define the position and orientation of an object in
+          space. In robotics, DOF indicate the number of independent variables
+          needed to specify the state of a robot.
+        </p>
+        <h2>Degrees of Freedom of a Point in 2D Space</h2>
+        <p>
+          In 2D space, a point has two degrees of freedom: one for its
+          x-coordinate and another for its y-coordinate. These two parameters
+          are independent and define the location of the point.
+        </p>
+        <h2>Degrees of Freedom of a Point in 3D Space</h2>
+        <p>
+          In 3D space, a point has three degrees of freedom: one for each of its
+          x, y, and z coordinates. These three parameters are independent and
+          define the location of the point in three-dimensional space.
+        </p>
+        <h2>Degrees of Freedom of a Rigid Body in 2D Space</h2>
+        <p>
+          In 2D space, a rigid body (an object that does not deform or change
+          shape) has three degrees of freedom: two for its position (x and y)
+          and one for its orientation (usually represented as an angle, such as
+          the rotation about the z-axis).
+        </p>
+        <h2>Degrees of Freedom of a Rigid Body in 3D Space</h2>
+        <p>
+          In 3D space, a rigid body has six degrees of freedom: three for its
+          position (x, y, and z coordinates) and three for its orientation
+          (roll, pitch, and yaw angles). These six parameters are needed to
+          describe the location and orientation of the rigid body in
+          three-dimensional space.
+        </p>
+        <h2>Degrees of Freedom for a Robotic Manipulator</h2>
+        <p>
+          A robotic manipulator is a complex system composed of multiple rigid
+          bodies (links) connected by joints. The degrees of freedom of a
+          robotic manipulator represent the total number of independent ways the
+          manipulator can move and position its end-effector (the tool or hand
+          of the robot) in space.
+        </p>
+        <p>
+          The degrees of freedom of a robotic manipulator depend on its
+          kinematic structure. For example:
+          <ul>
+            <li>
+                A simple planar manipulator with two revolute joints has 2 DOF, allowing it to move in a plane.
+            </li>
+            <li>
+                A 6-DOF robotic arm can move freely in three-dimensional space, with 6 independent joint motions.
+            </li>
+            <li>
+                More complex robotic systems with additional joints or features may have higher DOF to perform tasks like grasping, reaching, and manipulating objects in a more versatile manner.
+            </li>
+          </ul>
+        </p>
+        <p>In summary, degrees of freedom in robotics refer 
+          to the number of independent parameters required to describe the position and orientation of a robotic system. Understanding the DOF of a robotic manipulator is essential for tasks such as control, trajectory planning, and ensuring that the robot can perform specific tasks effectively and efficiently.</p>
+      </div>
+
+      <div class="next-prev">
+        <a class="previous" href="./interdisciplinary.html">Previous</a>
+        <a class="next" href="./anatomy.html">Next</a>
+      </div>
+    </main>
+
+    <script src="./js/common.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+@import url('./common.css');
+
+
+.content ol{
+    padding-left: 5%;
+}
+.content img{
+    width: 50%;
+    
+}

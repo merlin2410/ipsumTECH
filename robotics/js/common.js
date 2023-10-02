@@ -41,18 +41,39 @@ body.innerHTML += `  <nav class="nav-bar">
 
 <div class="key-aspects-robotics section" id="key-aspects-robotics">
     <h3><a href="./roboticsVsAutomation.html">Key Concepts in Robotics</a></h3>
-    <div class="sub-section definition" id="definition">
+    <div class="sub-section automationVsRobotics" id="automationVsRobotics">
         <a href="./roboticsVsAutomation.html">Automation vs Robotics</a>
     </div>
-    <div class="sub-section history" id="history">
+    <div class="sub-section hardSoft" id="hardSoft">
         <a href="./hardVsSoftAutomation.html">Hard vs Soft Automation</a>
     </div>
-    <div class="sub-section history" id="history">
+    <div class="sub-section interdisciplinary" id="interdisciplinary">
         <a href="./interdisciplinary.html">Interdisciplinary Nature of Robotics</a>
+    </div>
+
+    <div class="sub-section dof" id="dof">
+        <a href="./dof.html">Degrees of Freedom</a>
     </div>
 </div>
 
  <div class="line"></div>
+
+ <div class="robot-anatomy section" id="robot-anatomy">
+    <h3><a href="./anatomy.html">Robot Anatomy</a></h3>
+    <div class="sub-section links" id="links">
+        <a href="./links.html">Links</a>
+    </div>
+    <div class="sub-section joints" id="joints">
+        <a href="./joints.html">Joints</a>
+    </div>
+    <div class="sub-section end-effector" id="end-effector">
+        <a href="./endEffectors.html">End Effectors</a>
+    </div>
+</div>
+
+ <div class="line"></div>
+
+ 
 
 
 </aside>

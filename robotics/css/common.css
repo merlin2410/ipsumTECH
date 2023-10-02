@@ -89,6 +89,10 @@ a{
     position: fixed;
     top: 70px;
     background-color: white;
+    flex-wrap: nowrap;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 91%;
     
     
  }
@@ -110,7 +114,7 @@ a{
  .line{
     height: 1px;
     background-color: lightgray;
-    width: 225px;
+    width: 90%;
  }
 
  .main-container{
@@ -131,6 +135,14 @@ a{
     flex-direction: column;
     gap: 10px;
     text-align: justify;
+}
+
+.content ol{
+    padding-left: 5%;
+}
+
+.content ul{
+    padding-left: 5%;
 }
 
 
