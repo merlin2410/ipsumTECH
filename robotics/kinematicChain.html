@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Open vs Closed Kinematic Chain</title>
+    <link rel="icon" href="../logoSquare.png" />
+    <link rel="stylesheet" href="./css/links.css" />
+  </head>
+  <body>
+    <main class="main-container" id="main-container">
+      <div class="next-prev">
+        <a class="previous" href="./endEffectors.html">Previous</a>
+        <a class="next" href="">Next</a>
+      </div>
+      <h1 class="title">Open vs Closed Kinematic Chain</h1>
+      <div class="content">
+        <p>
+          Open kinematic chains and closed kinematic chains are concepts used in
+          robotics and mechanical engineering to describe the structure and
+          movement of interconnected components, such as robotic arms or
+          mechanical linkages. They differ in terms of how the components are
+          connected and the resulting motion.
+        </p>
+        <div>
+          <img src="https://b2600043.smushcdn.com/2600043/wp-content/uploads/2023/07/TCH104-10.png?lossy=0&strip=1&webp=1" alt="Open and Closed Kinematic Chain">
+        </div>
+        <h2>Open Kinematic Chain</h2>
+        <ul>
+          <li>
+            In an open kinematic chain, there is a sequence of connected links
+            or segments, where the last link or end effector is not connected to
+            any other rigid body.
+          </li>
+          <li>
+            The open kinematic chain typically represents structures like
+            robotic arms, human limbs, or industrial machines where the
+            end-effector (such as a gripper or tool) can move freely in space.
+          </li>
+          <li>
+            The motion of the end effector is determined by the relative motions
+            of the individual links in the chain.
+          </li>
+          <li>
+            Open kinematic chains offer flexibility in positioning and
+            orientation but may require complex control algorithms to achieve
+            precise movements.
+          </li>
+        </ul>
+        <p>
+          Open kinematic chains are commonly used in a wide variety of robotic
+          applications, such as:
+        </p>
+        <ul>
+          <li>Assembly</li>
+          <li>Manufacturing</li>
+          <li>Welding</li>
+          <li>Painting</li>
+          <li>Palletizing</li>
+        </ul>
+        <h3>Examples:</h3>
+        <ul>
+          <li>Robot Arms</li>
+          <li>Serial Manipulators</li>
+          <li>Scissor Lifts</li>
+        </ul>
+        <h2>Closed Kinematic Chain</h2>
+        <ul>
+          <li>
+            In a closed kinematic chain, all the links or segments are connected
+            in a loop, forming a closed structure.
+          </li>
+          <li>
+            The closed kinematic chain is often referred to as a mechanism or
+            linkage, and it typically represents structures like bicycle
+            linkages, car suspensions, or parallel robot manipulators.
+          </li>
+          <li>
+            In a closed kinematic chain, the motion of one link directly affects
+            the motion of other links within the chain, making the movement of
+            the end effector more predictable and constrained.
+          </li>
+          <li>
+            Closed kinematic chains are often used when precision and stability
+            are essential, as the end effector's movement is limited by the
+            design of the chain.
+          </li>
+        </ul>
+        <p>
+          Closed kinematic chains are often used in applications where high
+          stiffness and accuracy are required, such as:
+        </p>
+        <ul>
+          <li>Machine tools</li>
+          <li>Coordinate measuring machines (CMMs)</li>
+          <li>Surgical robots</li>
+          <li>Aerospace robots</li>
+        </ul>
+        <h2>Examples:</h2>
+        <ul>
+          <li>Parallel Manipulators</li>
+          <li>Hexapods</li>
+          <li>Stewart Platforms</li>
+        </ul>
+
+        <p>
+          In summary, the primary difference between open and closed kinematic
+          chains lies in their structural arrangement and the consequences for
+          motion. Open kinematic chains have one or more free-moving end
+          effectors, offering more versatility but requiring sophisticated
+          control. Closed kinematic chains have a fixed or more predictable
+          relationship between the different links, making them suitable for
+          applications where precision and stability are critical. Both concepts
+          find applications in various fields, including robotics, mechanical
+          engineering, and biomechanics, depending on the specific requirements
+          of the task.
+        </p>
+      </div>
+
+      <div class="next-prev">
+        <a class="previous" href="./endEffectors.html">Previous</a>
+        <a class="next" href="">Next</a>
+      </div>
+    </main>
+
+    <script src="./js/common.js"></script>
+  </body>
+</html>

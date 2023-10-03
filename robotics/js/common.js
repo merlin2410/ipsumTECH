@@ -69,6 +69,9 @@ body.innerHTML += `  <nav class="nav-bar">
     <div class="sub-section end-effector" id="end-effector">
         <a href="./endEffectors.html">End Effectors</a>
     </div>
+    <div class="sub-section kinematic-chain" id="kinematic-chain">
+        <a href="./kinematicChain.html">Open vs Closed Kinematic Chain</a>
+    </div>
 </div>
 
  <div class="line"></div>
