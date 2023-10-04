@@ -1,0 +1,16 @@
+@import url('./common.css');
+
+
+.content ol{
+    padding-left: 5%;
+}
+.content img{
+    width: 60%;
+    
+}
+
+@media only screen and (max-width:600px){
+    .content img{
+        width: 100%;
+    }
+}
